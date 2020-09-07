@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'fontawesome-webfont';
+  src: url("../fonts/fontawesome-webfont.ttf") format("truetype"); }
+body {
+  font-family: fontawesome-webfont; }
+
+.textDisplay {
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.49804);
+    padding-top: 20px;
+}
+
+.textDisplay:hover {
+    background-color: rgba(0, 0, 0, 0.69804);
+}
+
+@media (max-width: 768px) {
+  h4 {
+    font-size: 12px; } }
+
+blockquote {
+  -webkit-font-smoothing: antialiased;
+  background-color: #f0f7fd;
+  border-bottom-color: #d0e3f0;
+  border-left-color: #d0e3f0;
+  border-left-style: solid;
+  border-left-width: 5px;
+  border-right-color: #d0e3f0;
+  border-top-color: #d0e3f0;
+  font-size: 14px; 
+  padding:5px 15px;
+}
+
+
+
+
+

@@ -1,0 +1,62 @@
+﻿@inherits DetailBase
+@if (ShowDialog==true)
+{
+    <div class="modal fade show d-block" style="margin-top:65px;" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-xl" role="document">
+            <div class="modal-content" style="height:@Height;">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Detail</h5>
+                    <button type="button" @onclick="Close" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    @foreach (var item in Items.Where(d => d.Show))
+                    {
+                        if (item.Name == "certificates")
+                        {
+                            <div style="text-align: center;">
+                                <img class="img-fluid" title="certificate" src="/images/certifications/certificate.png" />
+                            </div>
+                        }
+                        if (item.Name == "2018")
+                        {
+
+                        }
+                        if (item.Name == "2016")
+                        {
+                            <div style="padding:10px;padding-left:20px;"><h5>Responsibilities: </h5><p>•	Work as a full stack developer. The techniques that I have been using are ASP.NET, .NET Core, C#, REST API, SQL Database, NOSQL Database, Message queue, Servciebus, Azure, AWS, CI, CD for back-end and MVC, Angular, Angular JS, JQuery, JavaScript, Bootstrap, CSS and HTML for front-end.</p><p>•	Cooperate with team members like project Scrum managers, product owner, Quality Assurance and other developers to accomplish tasks.</p><p>•	Based on designs and product owner requirements, translate application storyboards and use cases into functional applications</p><p>•	Attend daily stand-up, sprint plan meetings and knowledge sharing meetings, and provide stable and professional solutions.</p><p>•	Design, build, and maintain efficient, reusable, and reliable C# code. Also ensure the best possible performance, quality, and responsiveness of applications</p><p>•	Daily maintenance use troubleshooting skills to identify bottlenecks and bugs, and create datafix or codefix to solve those problems</p><h5>Achievements:</h5><p>•	We have a set of hospital system manage software and house property management system. There are four hospitals using our system, which create good profit for the company.</p><p>•	Utilize asp.net, C# and relevant techniques to maintain and optimize our current inventory application.</p><p>•	Enhance our third party integration APIs with our system and those APIs are like accounting system Xero and QBO, and other commercial websites APIs like Shopify, Amazon, Vend and Magento.</p></div>
+                        }
+                        if (item.Name == "2014.1")
+                        {
+                            <div style="padding: 10px 10px 10px 20px;"><h5>Responsibilities:</h5><p>•	Under requirements, I am responsible for developing a customerized stock management software and smart phone applicaton.</p><p>•	Attending requirement meeting and providing stable and reasonable solutions.</p><h5>Achievements: </h5><p>•	Using asp.net, c# and relevant techniques to create an inventory system.</p><p>•	Developing android and IOS applications for inventory managers usage.</p></div>
+                        }
+                        if (item.Name == "2014.2")
+                        {
+                            <div style="padding:10px;padding-left:20px;"><h5>Responsibilities:</h5><p>•	Basing on the senior developers’ designs and original requirement and using C# and relevant technique to develop applications.</p><p>•	Attending requirement meeting and providing stable and reasonable solutions.</p><h5>Achievements: </h5><p>•	Using asp.net, c# and relevant techniques to create a quoting offer applications.</p><p>•	Developing android,IOS and Windows phone applications for our Parcel Track system.</p><p>•	Integerating EBey and Unleashed systems into our current management system.</p></div>
+                        }
+                        if (item.Name == "2013")
+                        {
+                            <div style="padding:10px;padding-left:20px;"><h5>Responsibilities:</h5><p>•	Designing structure, using asp.net, c# and relevant technic to create new website applications for the company.</p><p>•	Participating in business meetings and according to customer’s requirement I am responsible for offering reasonable IT solutions.</p><p>•	Managing and organizing resource code version.</p><p>•	Testing applications and deploying them on the internet.</p><h5>Achievements: </h5><p>•	Completing a business demonstration website named Vineyardnz that is an online trade website.</p><p>•	Finishing two enterprise introduction website named Otterbuilding and Ishoppersnz.</p><p>•	Another enterprise introduction website and upgrading Vineyardnz program are in the process.</p></div>
+                        }
+                        if (item.Name == "2012")
+                        {
+                            <div style="padding:10px;padding-left:20px;"><h5>Responsibilities:</h5><p>•	Designing database structure and using c# to build new functions for buz and netSky. Offering reasonable solutions.</p><p>•	Maintaining old programs. Perfecting old code that other people did and creating new features in the old program.</p><p>•	Managing and organizing resource code version.</p><p>•	Testing applications and deploying them on the internet.</p><h5>Achievements: </h5><br><p>•	Completing a business website named Bargainhunting that is similar to the Trademe website.</p><p>•	Finishing a social network website named Buz.</p><p>•	A website integration platform.</p></div>
+                        }
+                        if (item.Name == "stock")
+                        {
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ks6BOcdNCRk" allowfullscreen></iframe>
+                            </div>
+                        }
+                    }
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-sm btn-secondary" @onclick="Close">Close</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+}
+
