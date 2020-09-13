@@ -44,6 +44,7 @@
                         <div class="d-flex align-items-center justify-content-left h-100 container">
                             <div class="animate__animated animate__fadeInDownBig">
                                 <h3>Working history</h3>
+
                                 <h4 style="cursor:pointer" @onclick='()=>ModalShow("2018")'>2018.9 – Now LPS Ltd.  Position is Software Developer.</h4>
                                 <h4 style="cursor:pointer" @onclick='()=>ModalShow("2016")'>2016.5 – 2018.8 Unleashed Ltd.  Position is Software Developer.</h4>
                                 <h4 style="cursor:pointer" @onclick='()=>ModalShow("2014.1")'>2014.10 – 2015.4 Manchester &amp; More Ltd.  Position is Software Engineer.</h4>
@@ -84,7 +85,260 @@
         </div>
     </div>
     <div class="animate__animated animate__zoomIn">
-        <MainContent></MainContent>
+        <div class="container mt-4 mt-sm-2 ">
+
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Document</h3>
+                    <blockquote>
+                            <a style="cursor: pointer; color: blue" @onclick='()=>ModalShow("cv")'>
+                                Arthur's latest CV
+                            </a>
+                    </blockquote>
+
+                    <h3 id="Test">Technique skills</h3>
+                    <blockquote>
+                        <p class="text-info">
+                            I am proficient in Microsoft .Net framework including ASP.NET,
+                            C#, Entity framework, MVC, Blazor, WEB API, Web Services, Silverlight, Xamarin.Form, WPF, WCF, Cloud computing Azure, AWS, SQL Database and relevant technique such as HTML5, AJAX, jQuery, Javascript, Angullar, CSS, Bootstrap and the like.
+                        </p>
+                        <p class="text-info">
+                            A team player working in a scrum environment.
+                        </p>
+                        <p class="text-info">
+                            I am good at using Github or DevOps as my source control server and Trello or Jira as my project management tools.
+                        </p>
+                    </blockquote>
+                    <h3>Qualifications</h3>
+                    <blockquote>
+                        <p class="text-info">
+                            8 May 2020：Azure Developer Associate
+                        </p>
+                        <p class="text-info">
+                            7 January 2020：Azure Fundamentals
+                        </p>
+                        <p class="text-info">
+                            31 March 2015：Microsoft Certified Professional of Programming in C#
+                        </p>
+                        <p class="text-info">
+                            1 March 2015：Microsoft Certified Professional of ASP.NET MVC Web Applications
+                        </p>
+                        <p class="text-info">
+                            March 2004 – December 2006：Master of Software Engineering in Jilin University, China
+                        </p>
+                        <p class="text-info">
+                            May 1998 – October 2000：Bachelor of Computer and application in Jilin University, China
+                        </p>
+                        <p class="text-info">
+                            2004：Training of Microsoft Project Manager
+                        </p>
+                    </blockquote>
+
+
+                </div>
+                <div class="col-md-4">
+                    <h3>Open source</h3>
+                    <blockquote>
+                        <a href="https://github.com/arthurlv6/E2E-Testing-Framework-" target="_blank">Functional application + REST API</a><br>
+                        <ol>
+                            <li>
+                                Railway pattern
+                            </li>
+                            <li>
+                                Selenium webdriver
+                            </li>
+                            <li>
+                                Blazor website
+                            </li>
+                        </ol>
+                        <a href="https://github.com/arthurlv6/TSPAdmin" target="_blank">Blazor web assembly + REST API</a><br>
+                        <ol>
+                            <li>
+                                Content management
+                            </li>
+                            <li>
+                                Progressive Web Application-PWA
+                            </li>
+                            <li>
+                                Authentication
+                            </li>
+                        </ol>
+
+                        <a href="https://github.com/arthurlv6/angularDemo" target="_blank">Angular6 + REST API APP</a><br>
+                        <ol>
+                            <li>
+                                Simply add,delete and edit.
+                            </li>
+                            <li>
+                                Client cache
+                            </li>
+                            <li>
+                                Authentication
+                            </li>
+                        </ol>
+                        <a href="https://github.com/arthurlv6/PipelineFramework" target="_blank">Customized pipeline framework</a><br>
+                        <ol>
+                            <li>
+                                Simpify business logic
+                            </li>
+                            <li>
+                                Can be used at any c# applications.
+                            </li>
+                            <li>
+                                No third-part dependency.
+                            </li>
+                        </ol>
+                        <a href="https://github.com/arthurlv6/smartphone" target="_blank">Smartphone application (Xamarin.forms)</a><br>
+                        <ol>
+                            <li>
+                                MVVM Pattern
+                            </li>
+                            <li>
+                                Scan barcode, phone call, map show and camera native API calls.
+                            </li>
+                            <li>
+                                Cross platform.
+                            </li>
+                        </ol>
+                        <a href="https://github.com/arthurlv6/MVC5" target="_blank">MVC5+EntityCodefirst+Identity2</a>
+                        <br>
+                        <ol>
+                            <li>
+                                Global Server Exception control
+                            </li>
+                            <li>
+                                Global action filter for IP restriction
+                            </li>
+                            <li>
+                                Data cache usage in management controller
+                            </li>
+                            <li>
+                                Universal Search and List template
+                            </li>
+                            <li>
+                                Using justmock to fully test the edit function.
+                            </li>
+                        </ol>
+                        <a href="https://github.com/arthurlv6/WebApiAngularJS" target="_blank">WebApi+AngularJS APP</a>
+                        <br>
+                        <ol>
+                            <li>
+
+                                Authentication and Authorization
+
+                            </li>
+                            <li>
+
+                                Search by condition
+
+                            </li>
+                            <li>
+
+                                Simple add data to database
+
+                            </li>
+                        </ol>
+                        <a href="https://github.com/arthurlv6/angularCV" target="_blank">AngularJS Animation CV</a>
+                    </blockquote>
+                    <h3>Live online shows</h3>
+                    <blockquote>
+                        <a href="http://inventory.arthurdid.net/" target="_blank">Inventory management app (MVC) </a>
+                        <br>
+                        <a href="http://angular.arthurdid.net/" target="_blank">Inventory management app (Angular 6 + REST API) </a>
+                        <br>
+                        <a href="http://ad.arthurdid.net" target="_blank">Advertisement Platform (MVC)</a>
+                        <br>
+                        <a href="http://agency.arthurdid.net/" target="_blank">Agency management app (MVC)</a>
+                        <br>
+                    </blockquote>
+                </div>
+                <div class="col-md-4">
+                    <h3>Industry experience</h3>
+                    <blockquote>
+                        <p class="text-info">
+                            Supply Chain Collaboration system.
+                        </p>
+                        <p class="text-info">
+                            Retail inventory management and online trade system.
+                        </p>
+                        <p class="text-info">
+                            Hire-to-purchase management system.
+                        </p>
+                        <p class="text-info">
+                            Freight integration system.
+                        </p>
+                        <p class="text-info">
+                            CRM, ERP for manufactures.
+                        </p>
+                        <p class="text-info">
+                            Apartment property management system for government.
+                        </p>
+                        <p class="text-info">
+                            Hospital and health insurance management systems.
+                        </p>
+                    </blockquote>
+
+                    <h3>References</h3>
+                    <blockquote>
+                        <p class="text-info">
+                            LPS Ltd <br>
+                            General manager: Evan<br>
+                            Mobile: +64 218 36440<br>
+                            Email: evan.belford@lps.co.nz
+                        </p>
+                        <p class="text-info">
+                            Unleashed Ltd <br>
+                            HR manager: Lisa<br>
+                            Mobile: +64 9 801 6337
+                        </p>
+                        <p class="text-info">
+                            DFS Tourist Industry Management System <br>Marketting department manager: Jason Lu<br>Mobile: 021 567 916<br>Email: jason.lu@dfs.com
+                        </p>
+                        <p class="text-info">
+                            ICA College WEBSITE<br>Head of Computing/IT Manager: Ali Ashraf<br>Mobile: 021 085 60190<br>Email: ali@ica.ac.nz
+                        </p>
+                        <p class="text-info">
+                            <a style="cursor: pointer; color: blue" @onclick='()=>ModalShow("Manchest")'>
+                                Manchest&amp;more Director: Felix Wu<br>
+                                Mobile: 021 188 2041<br>
+                                Phone:+614 067 86155<br>
+                                Email: felix.wu@manchestermore.co.nz
+                            </a>
+
+                        </p>
+                        <p class="text-info">
+
+                            <a style="cursor: pointer; color: blue" @onclick='()=>ModalShow("GoSweetSpot")'>
+                                GoSweetSpot IT Director: Minal Gulabdas<br>
+                                Mobile: 021 724 926<br>
+
+                                Email: minal@gosweetspot.com
+                            </a>
+
+                        </p>
+                        <p class="text-info">
+
+                            <a style="cursor: pointer; color: blue" @onclick='()=>ModalShow("IShoppers")'>
+                                IShoppers General Manager: Rouyun Liao<br>
+                                Mobile: 021 161 6318<br>
+                                Email:  tweemichelle@hotmail.com
+                            </a>
+
+                        </p>
+                        <p class="text-info">
+
+                            <a style="cursor: pointer; color: blue" @onclick='()=>ModalShow("BargainHunt")'>
+                                BargainHunt CEO: Matthew Jeffery<br>
+                                Mobile: 021 840 0380<br>
+                                Email:  bargainhunting1@gmail.com
+                            </a>
+
+                        </p>
+                    </blockquote>
+
+                </div>
+            </div>
+        </div>
     </div>
     <Detail @ref="Detail"></Detail>
 </div>

@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorCV", "BlazorCV\BlazorCV.csproj", "{A4990874-88EA-4BC7-B3FC-7F8DCD9A55EC}"
 EndProject
+Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "CVRP", "CVRP\CVRP.deployproj", "{8B936B82-EEC8-4CA5-8357-4166EB64AD04}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A4990874-88EA-4BC7-B3FC-7F8DCD9A55EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4990874-88EA-4BC7-B3FC-7F8DCD9A55EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4990874-88EA-4BC7-B3FC-7F8DCD9A55EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B936B82-EEC8-4CA5-8357-4166EB64AD04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B936B82-EEC8-4CA5-8357-4166EB64AD04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B936B82-EEC8-4CA5-8357-4166EB64AD04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B936B82-EEC8-4CA5-8357-4166EB64AD04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

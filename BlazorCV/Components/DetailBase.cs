@@ -28,6 +28,11 @@ namespace BlazorCV.Components
             Items.Add(new Item { Name = "2014.1" });
             Items.Add(new Item { Name = "2013"  });
             Items.Add(new Item { Name = "2012"  });
+            Items.Add(new Item { Name = "cv",Type= "notText" });
+            Items.Add(new Item { Name = "Manchest", Type = "notText" });
+            Items.Add(new Item { Name = "GoSweetSpot", Type = "notText" });
+            Items.Add(new Item { Name = "IShoppers", Type = "notText" });
+            Items.Add(new Item { Name = "BargainHunt", Type = "notText" });
 
             Items.Add(new Item { Name = "stock",Type="notText" });
             var temp = Items;
